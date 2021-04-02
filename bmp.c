@@ -95,7 +95,7 @@ unsigned char SaveBitmap24File(char * name,uint16_t width,uint16_t height,unsign
     header.biWidth=width;
     header.biHeight=height;
     header.biPlanes=0x01;
-    header.biBitCount=24;
+    header.biBitCount=0x18;
     header.biSizeImage=ImgMByte;
     header.biXPelsPerMeter=0x0b13;
     header.biYPelsPerMeter=0x0b13;
